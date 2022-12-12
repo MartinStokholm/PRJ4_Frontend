@@ -58,7 +58,7 @@ const Settings = () => {
         <SubHeading text="Change email" />
         <form
           onSubmit={handleUpdateEmailButtonClick}
-          className="flex flex-wrap border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
+          className="flex flex-wrap justify-center border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
         >
           <InputField
             required={true}
@@ -87,7 +87,7 @@ const Settings = () => {
         <SubHeading text="Change password" />
         <form
           onSubmit={handleUpdatePasswordButtonClick}
-          className="flex flex-wrap border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
+          className="flex flex-wrap justify-center border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
         >
           <InputField
             required={true}
@@ -116,7 +116,7 @@ const Settings = () => {
         <SubHeading text="Delete Account" />
         <form
           onSubmit={handleDeleteButtonClick}
-          className="flex flex-wrap border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
+          className="flex flex-wrap justify-center border rounded overflow-hidden shadow-lg border-gray-200 bg-white"
         >
           <InputField
             required={true}
