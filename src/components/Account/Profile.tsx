@@ -26,8 +26,9 @@ const Profile = () => {
     return <Error statusCode={(error as any).message} />;
   }
 
-  const { age, email, gender, name, weigth } = profileData?.data;
-
+  const { email, gender, name, weigth } = profileData?.data;
+  const age = profileData?.data?.age ?? "Not set";
+  const 
   return (
     <div className="border rounded border-grey-300 bg-white overflow-hidden shadow-lg flex flex-col p-4">
       <div className="border rounded border-grey-300 bg-white overflow-hidden shadow-lg flex">
