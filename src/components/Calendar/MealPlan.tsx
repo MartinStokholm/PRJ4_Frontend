@@ -3,8 +3,6 @@ import Link from "next/link";
 import MealPlanColoumn from "./MealPlanColoumn";
 
 const MealPlan = ({ mealDays, mealData }) => {
-  console.log({ mealDays });
-  console.log({ mealData });
   return (
     <div className="flex md:flex-wrap flex-col justify-center bg-white overflow-hidden shadow-lg p-2">
       <MealPlanColoumn mealDays={mealDays} mealData={mealData} day="Monday" />

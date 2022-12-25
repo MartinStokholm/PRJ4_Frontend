@@ -11,5 +11,7 @@ export const FetchCalender = async () => {
 export const GetCalender = (onError) => {
   return useQuery([`calenderKey`], FetchCalender, {
     onError,
+    refetchOnReconnect: false,
+    refetchOnWindowFocus: false,
   });
 };
