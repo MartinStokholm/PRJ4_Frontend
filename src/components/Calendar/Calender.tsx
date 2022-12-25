@@ -6,13 +6,9 @@ import MealPlan from "../Calendar/MealPlan";
 import SubHeading from "../Layout/SubHeading";
 import Error from "next/error";
 
-const onSuccess = (WorkoutData) => {
-  console.log("Perform side effect after data fetching", WorkoutData?.data);
-};
+const onSuccess = (WorkoutData) => {};
 
-const onError = (error) => {
-  console.log(`Perform side effect after encountered error\n ${error}`);
-};
+const onError = (error) => {};
 
 export default function Calender({ calendarData }) {
   const {

@@ -69,7 +69,7 @@ const Nav = () => {
           className="hover:text-green-500 md:hover:text-green-500"
           href="/dish"
         >
-          Recipies
+          Recipes
         </Navbar.Link>
         {session ? (
           <Navbar.Link

@@ -6,7 +6,6 @@ const FecthMeals = async () => {
     url: `meal/account/${localStorage.getItem("email")}`,
     method: "get",
   });
-  console.log(response.status);
   if (response.status == 304) {
     throw new Error("Problem fetching data");
   }
