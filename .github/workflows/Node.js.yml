@@ -3,15 +3,13 @@
 
 name: Node.js CI
 env: 
-  Project_Path: ./FATT_frontend/FATT_NEXT/fatt/
+  Project_Path: ./
   Test_Path: $Project_Path
-  Package_Lock_Path: ./FATT_frontend/FATT_NEXT/fatt/package-lock.json
+  Package_Lock_Path: ./package-lock.json
 
 on:
   push:
-    branches: [ "develepment" ]
   pull_request:
-    branches: [ "develepment" ]
 
 jobs:
   build:
